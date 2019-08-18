@@ -80,4 +80,4 @@ theme: architect
 deploy:
   type:git
   repo:https://github.com/MargerieHD/margeriehd.github.io
-  branch:master
+  branch:published
