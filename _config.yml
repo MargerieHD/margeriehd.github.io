@@ -320,7 +320,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-  - licences/*
+  - licenses/*
 include:
   - .well-known
   - LICENSE.md
