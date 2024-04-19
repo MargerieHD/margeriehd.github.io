@@ -59,8 +59,7 @@ author:
       Welcome to my portfolio ! My name is François Michel, I currently work as a postdoctoral researcher at UCLouvain, in Belgium.
       Passionate about computer networks, I wrote [my thesis](https://ncs.uclouvain.be/assets/pdf/michel-phd.pdf)
       about revisiting the loss recovery mechanism of the QUIC protocol. I also love learning and playing with
-      modern applications using QUIC, such as HTTP/3. I recently proposed and developed a prototype for
-      [SSH3](https://github.com/francoismichel/ssh3), a revisit of the SSH protocol using HTTP/3 and QUIC.
+      modern applications using QUIC, such as HTTP/3.
       You can reach me on [Twitter/X](https://twitter.com/furanzu_) or
       [Linkedin](https://www.linkedin.com/in/fran%C3%A7ois-michel-1b33181b0/). Don't hesitate to contact me,
       I'll be happy to tchat !
