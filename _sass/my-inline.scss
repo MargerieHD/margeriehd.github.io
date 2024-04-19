@@ -1,11 +1,14 @@
-#_navbar {
-    display: none
-}
-
 body {
     font-size: 14pt
 }
 
+// remove navbar shadow
+.navbar.fixed-top>.content::before {
+    bottom: 1px;
+    box-shadow: none !important;
+}
+
+// handle links colors
 hy-push-state a {
     color: var(--accent-color); // inline
 
