@@ -83,7 +83,7 @@ a.btn {
 
     a {
         &::after {
-            content: "";
+            content: "" !important;
             font-family: 'icomoon' !important;
             speak: none;
             font-style: normal;
