@@ -81,9 +81,7 @@ a.btn {
 
 @media screen {
 
-    a.external,
-    a[href*="://"]:not(.no-mark-external):not(.no-mark),
-    a.no-push-state:not(.no-mark-external):not(.no-mark) {
+    a {
         &::after {
             content: "";
             font-family: 'icomoon' !important;
