@@ -2,17 +2,26 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name: François Michel
+  bio:
+    short: >
+      I am a recently graduated PhD. I am passionated in computer networks,
+      especially at the transport layer and network applications.
+    full: >
+      My name is François Michel, I am currently a postdoctoral researcher at UCLouvain, in Belgium.
+      Passionated in computer networks, I wrote (my thesis)[https://ncs.uclouvain.be/assets/pdf/michel-phd.pdf]
+      about revisiting the loss recovery mechanism of the QUIC protocol. I also love learning and playing with
+      modern applications using QUIC, such as HTTP/3. I recently proposed and developed a prototype for
+      [SSH3](https://github.com/francoismichel/ssh3), a revisit of the SSH protocol using HTTP/3 and QUIC.
+      You can reach me on [Twitter/X](https://twitter.com/furanzu_) or
+      [Linkedin](https://www.linkedin.com/in/fran%C3%A7ois-michel-1b33181b0/). Don't hesitate to contact me,
+      I'll be happy to have a tchat !
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+  about: |
+        I am a recently graduated PhD. I am passionated in computer networks,
+        especially at the transport layer and network applications.
 
   # This photo will be used in the about section
   picture:
@@ -26,8 +35,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
+    twitter:          furanzu_
+    github:           francoismichel
+    linkedin:         "françois-michel-1b33181b0"
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -57,7 +67,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>

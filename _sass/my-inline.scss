@@ -1,4 +1,104 @@
-// You can add CSS rules here that will be inlined into each document.
-// .sidebar a {
-//   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
-// }
+#_navbar {
+    display: none
+}
+
+body {
+    font-size: 14pt
+}
+
+hy-push-state a {
+    color: var(--accent-color); // inline
+
+    // <<< inline
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+        text-decoration: none;
+        border-bottom: 2px solid;
+    }
+
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+        text-decoration-style: solid;
+        text-underline-offset: .15rem;
+        text-decoration-thickness: 2px;
+    }
+
+    // >>>
+
+    // <<< link
+    transition: color 250ms,
+    text-decoration-color 250ms,
+    border-color 250ms;
+
+    &:hover {
+        transition: color 50ms, text-decoration-color 50ms, border-color 50ms;
+    }
+
+    // >>>
+
+    // <<< inline
+    &.no-hover {
+        border-bottom: none;
+        text-decoration-thickness: unset;
+        text-underline-offset: unset;
+    }
+
+    // >>>
+}
+
+.content a:not(.btn):not(.no-hover) {
+
+    // <<< inline
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+        text-decoration-color: var(--accent-color-faded);
+    }
+
+    border-color: var(--accent-color-faded);
+
+    // >>>
+    // <<< link
+    &:hover {
+        @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+            text-decoration-color: var(--accent-color);
+        }
+
+        border-color: var(--accent-color);
+    }
+
+    // >>>
+}
+
+// <<< link
+a.btn {
+    text-decoration: none;
+}
+
+@media print {
+    a:not(.no-print-link)::after {
+        content: " (" attr(href) ") ";
+        color: var(--gray);
+        font-size: 62%;
+    }
+}
+
+@media screen {
+
+    a.external,
+    a[href*="://"]:not(.no-mark-external):not(.no-mark),
+    a.no-push-state:not(.no-mark-external):not(.no-mark) {
+        &::after {
+            content: "";
+            font-family: 'icomoon' !important;
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            font-size: smaller;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: var(--menu-text);
+        }
+    }
+}
+
+// >>>

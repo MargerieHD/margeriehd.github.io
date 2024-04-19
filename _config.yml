@@ -20,16 +20,18 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 François Michel
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  I am a recently graduated PhD. I am passionate about computer networks,
+  especially at the transport layer and network applications.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:
+  I am a recently graduated PhD. I am passionate about computer networks,
+  especially at the transport layer and network applications.
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,37 +39,43 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo_small.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  # name:                <firstname> <lastname>
+  # email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter: furanzu_
+  github: francoismichel
+
+  name: François Michel
+  bio:
+    short: >
+      I am a recently graduated PhD. I am passionate about computer networks,
+      especially at the transport layer and network applications.
+    full: >
+      Welcome to my portfolio ! My name is François Michel, I currently work as a postdoctoral researcher at UCLouvain, in Belgium.
+      Passionate about computer networks, I wrote [my thesis](https://ncs.uclouvain.be/assets/pdf/michel-phd.pdf)
+      about revisiting the loss recovery mechanism of the QUIC protocol. I also love learning and playing with
+      modern applications using QUIC, such as HTTP/3. I recently proposed and developed a prototype for
+      [SSH3](https://github.com/francoismichel/ssh3), a revisit of the SSH protocol using HTTP/3 and QUIC.
+      You can reach me on [Twitter/X](https://twitter.com/furanzu_) or
+      [Linkedin](https://www.linkedin.com/in/fran%C3%A7ois-michel-1b33181b0/). Don't hesitate to contact me,
+      I'll be happy to tchat !
+
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  - title:             Publications
+    url:               /publications/
+  # - title:             Projects
+  #   url:               /projects/
 
-# Add links to the footer.
-# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             "" #© 2024. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -88,13 +96,13 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/sanfran.png
+accent_color:          rgb(24,129,161)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(24,129,161)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -204,7 +212,7 @@ hydejack:
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
   # Use custom css to hide completely, e.g. `#_navbar { display: none }`.
-  no_navbar:           false
+  no_navbar:           true
 
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
@@ -404,6 +412,9 @@ jekyll_compose:
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
+    publications:
+      layout: post
+
     posts:
       layout: post
       description: > 
