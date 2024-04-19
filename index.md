@@ -10,9 +10,9 @@ hide_image: false
 cover: false
 ---
 <div class="flex-container" style="display: flex; justify-content: space-between; width: 100%">
-<img src="/assets/img/thesis.png" style="width: 28%; border-radius: 50%">
-<img src="/assets/img/presenting.png" style="width: 28%; border-radius: 50%">
-<img src="/assets/img/soldering.png" style="width: 28%; border-radius: 50%">
+<img src="assets/img/thesis.png" style="width: 28%; border-radius: 50%">
+<img src="assets/img/presenting.png" style="width: 28%; border-radius: 50%">
+<img src="assets/img/soldering.png" style="width: 28%; border-radius: 50%">
 </div>
 
 <br>
