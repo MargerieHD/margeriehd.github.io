@@ -20,18 +20,16 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 François Michel
+title:                 Margerie Huet Dastarac
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  I am a recently graduated PhD. I am passionate about computer networks,
-  especially at the transport layer and network applications.
+  I am a recently graduated PhD. I am passionate about designing cutting-edge AI model architectures, particularly in the areas of multimodal learning and health. 
 
 # A shorter description for the sidebar.
 tagline:
-  I am a recently graduated PhD. I am passionate about computer networks,
-  especially at the transport layer and network applications.
+  I am a recently graduated PhD. I am passionate about designing cutting-edge AI model architectures, particularly in the areas of multimodal learning and health. 
 
 # A list of keywords for your blog
 keywords:              []
@@ -39,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo_small.jpg
+logo:                  /assets/img/pp.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -47,23 +45,22 @@ author:
   # name:                <firstname> <lastname>
   # email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
-  twitter: furanzu_
-  github: francoismichel
+  github: margeriehd
 
-  name: François Michel
+  name: Margerie Huet Dastarac
   bio:
     short: >
-      I am a recently graduated PhD. I am passionate about computer networks,
-      especially at the transport layer and network applications.
+      I am a recently graduated PhD. I am passionate about designing cutting-edge AI model architectures, particularly in the areas of multimodal learning and uncertainty quantification. 
     full: >
-      Welcome to my portfolio ! My name is François Michel, I currently work as a postdoctoral researcher at UCLouvain, in Belgium.
-      Passionate about computer networks, I wrote [my thesis](https://ncs.uclouvain.be/assets/pdf/michel-phd.pdf)
-      about revisiting the loss recovery mechanism of the QUIC protocol. I also love learning and playing with
-      modern applications using QUIC, such as HTTP/3.
-      You can reach me on [Twitter/X](https://twitter.com/furanzu_) or
-      [Linkedin](https://www.linkedin.com/in/fran%C3%A7ois-michel-1b33181b0/). Don't hesitate to contact me,
-      I'll be happy to tchat !
-
+      Welcome to my portfolio ! <br />
+      My name is Margerie Huet Dastarac, I currently work as a postdoctoral researcher at Electronic Health Information Lab, working on finetuning large language models applied to health tabular data. 
+      Passionate about AI models, I wrote [my thesis](http://hdl.handle.net/2078.1/293147) 
+      about building 3D CNN and Transformers AI models to predicting the dose distribution deposited in cancer patients undergoing radiotherapy treatments. 
+      I love learning and playing with multimodal architectures mixing sound, text and images. <br />
+      You can reach me on [Linkedin](https://www.linkedin.com/in/margerie-huet-dastarac-a80788125/). 
+      Don’t hesitate to contact me, I’ll be happy to chat !<br /><br />
+      
+# I thrive at the intersection of science and creativity, blending deep technical expertise with a strong appreciation for art and creative expression.
 
 # Add links to the sidebar.
 menu:
@@ -95,7 +92,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sanfran.png
+accent_image:          /assets/img/quebec_taiga_blur.jpeg
 accent_color:          rgb(24,129,161)
 
 # This is used for the `theme-color` meta tag,
@@ -129,6 +126,7 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
+        filter:        blur(5px)
 
   # Don't include documents in assets in the sitemap
   - scope:

@@ -2,10 +2,10 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: François Michel
+  name: Margerie Huet Dastarac
   bio:
     short: >
-      I am a recently graduated PhD. I am passionated in computer networks,
+      I am a recently graduated PhD. I am passionate in computer networks,
       especially at the transport layer and network applications.
     full: >
       My name is François Michel, I am currently a postdoctoral researcher at UCLouvain, in Belgium.
@@ -35,9 +35,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:          furanzu_
-    github:           francoismichel
-    linkedin:         "françois-michel-1b33181b0"
+    # twitter:          furanzu_
+    github:           margeriehd
+    linkedin:         "margerie-huet-dastarac-a80788125"
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>

@@ -7,27 +7,17 @@ title: Publications
 sitemap: false
 ---
 Hereunder are three of my previous publications that you may want to check out.
-Don't hesitate to have a look at [my scholar profile](https://scholar.google.com/citations?user=odZdKOYAAAAJ)
+Don't hesitate to have a look at [my scholar profile](https://scholar.google.com/citations?user=tl3X3AgAAAAJ&hl=en)
 to see my full list of publications.
 
-## [2024: Towards SSH3: How HTTP/3 Improves Secure Shells](https://arxiv.org/pdf/2312.08396.pdf)
-In this article, we revisit the design of the SSH protocol and analyze how HTTP, QUIC and TLS can
-be used as modern alternatives for the SSH Transport and Authentication protocols.
-This project led to a popular [Github repository](https://github.com/francoismichel/ssh3) (>3k stars)
-an [APNIC blogpost](https://blog.apnic.net/2024/02/02/towards-ssh3-how-http-3-improves-secure-shells/)
-and an [Internet Draft](https://www.ietf.org/archive/id/draft-michel-ssh3-00.html).
+## [My Thesis: Advancing automation in radiation therapy through artificial intelligence: decision support and uncertainty estimation](http://hdl.handle.net/2078.1/293147)
+AI applied to cancer research is a dream but patient life is at stake so AI must be safe. This thesis contributes by proposing radiation therapy dose prediction model architectures and extending applications such as treatment decision support and automatic treatment planning. We built different quality assurance methods and designed a deployment interface.
 
-## [2023: My Thesis: Revisiting The Loss Recovery of QUIC](https://ncs.uclouvain.be/assets/pdf/michel-phd.pdf)
-The QUIC proposes a reliable stream abstraction by retransmitting the content of lost packets.
-This may not be sufficient for latency-sensitive applications over high-delay networks.
-This thesis extends the loss recovery mechanism of the QUIC protocol, relying on Forward Erasure Correction
-(FEC) under tight latency constraints and using regular retransmissions otherwise.
-The thesis proposes significant latency improvements of QUIC transfers in emulated environments and
-over real networks such as the Starlink network.
+## [Can input reconstruction be used to directly estimate uncertainty of a dose prediction U‐Net model?]( https://doi.org/10.1002/mp.17287)
+In this study, we modify the CNN (HDU-Net) model architecture to obtain a direct uncertainty estimation method and apply it for a radiotherapy dose prediction. While simple, it allows to successfully flag out-of-distribution data and give information on the quality of the output in a single pass. This work was selected as ICCR Rising star competitor. You can check out the [code repository](https://gitlab.com/ai4miro/ct-reconstruction-for-uncertainty-quatification-of-hdunet). 
 
-## [2022: A First Look At Starlink Performance](https://dl.acm.org/doi/abs/10.1145/3517745.3561416)
-We published the first article evaluating the performance of the Starlink network under different
-use-cases and requirements. Besides throughput, we analyzed the latency over an idle link, bufferbloat
-over a utilized link and packet losses and loss patterns caused by the wireless medium.
-You can checkout [the presentation video](https://dl.acm.org/doi/10.1145/3517745.3561416#sec-supp) and the
-related [APNIC blogpost](https://blog.apnic.net/2022/11/28/fact-checking-starlinks-performance-figures/).
+## [PARROT: An end-to-end open source workflow of AI-assisted treatment planning and decision support](https://www.iccr2024.org/papers/525190.pdf)
+Here, we present PARROT: a user-friendly graphical interface built to deploy AI models for research clinicians.
+It is a free, open-source
+web platform that facilitates the use of AI delineation and dose prediction models and the visualization of the models outputs. The treatment decision support shows clinical evaluation tools to compare dose
+distributions and estimate of normal tissue complication probabilities.
