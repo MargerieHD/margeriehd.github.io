@@ -12,7 +12,7 @@ cover: false
 <div class="flex-container" style="display: flex; justify-content: space-between; width: 100%">
 <img src="assets/img/presenting2.jpg" style="width: 28%; border-radius: 50%">
 <img src="assets/img/thesis.jpeg" style="width: 28%; border-radius: 50%">
-<img src="assets/img/canada.jpeg" style="width: 28%; border-radius: 50%">
+<img src="assets/img/canada_s.jpg" style="width: 28%; border-radius: 50%">
 </div>
 
 <br>
